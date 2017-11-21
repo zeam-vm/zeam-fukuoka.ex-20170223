@@ -1,12 +1,12 @@
-# README.md: KK-SHiFT-pr-20171122
+# README.md: AI-talk-AUGM
 
 ## インストール方法
 
 ```
 $ gem install slim html2slim
 $ npm install -g bower yo grunt-cli generator-reveal gulp
-$ git clone git@github.com:zacky1972/KK-SHiFT-pr-20171122.git
-$ cd KK-SHiFT-pr-20171122
+$ git clone git@github.com:zacky1972/AI-talk-AUGM.git
+$ cd AI-talk-AUGM-20171122
 $ npm install
 $ bower install
 ```
@@ -14,7 +14,7 @@ $ bower install
 ## プレゼンテーション表示方法
 
 ```
-$ cd KK-SHiFT-pr-20171122
+$ cd AI-talk-AUGM-20171122
 $ grunt serve
 ```
 
@@ -24,7 +24,7 @@ $ grunt serve
 $ grunt deploy
 ```
 
-[このページを開きます](https://zacky1972.github.io/KK-SHiFT-pr-20171122/)
+[このページを開きます](https://zacky1972.github.io/AI-talk-AUGM/)
 
 ## スライドの追加
 
