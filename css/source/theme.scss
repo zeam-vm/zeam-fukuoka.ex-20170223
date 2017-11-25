@@ -58,9 +58,32 @@ html {
 	background-color: $backgroundColor !important;
 }
 
-p {
+p, .left {
 	text-align: left;
 }
+
+.center {
+	text-align: center;
+}
+
+.strong {
+	font-weight: bold !important;
+}
+
+img.icon {
+	width: 120px;
+	border-style: none !important;
+	margin: 30px !important;
+}
+
+.middle img {
+	vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: none !important;
+}
+
 
 // Theme template ------------------------------
 @import "../../bower_components/reveal.js/css/theme/template/theme";
