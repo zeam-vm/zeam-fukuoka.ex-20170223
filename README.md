@@ -6,7 +6,7 @@
 $ gem install slim html2slim
 $ npm install -g bower yo grunt-cli generator-reveal gulp
 $ git clone git@github.com:zacky1972/AI-talk-AUGM.git
-$ cd AI-talk-AUGM-20171122
+$ cd AI-talk-AUGM
 $ npm install
 $ bower install
 ```
@@ -14,7 +14,7 @@ $ bower install
 ## プレゼンテーション表示方法
 
 ```
-$ cd AI-talk-AUGM-20171122
+$ cd AI-talk-AUGM
 $ grunt serve
 ```
 
