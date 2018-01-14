@@ -1,12 +1,12 @@
-# README.md: AI-talk-AUGM
+# README.md: AI-talk-how-to-grow
 
 ## インストール方法
 
 ```
 $ gem install slim html2slim
 $ npm install -g bower yo grunt-cli generator-reveal gulp
-$ git clone git@github.com:zacky1972/AI-talk-AUGM.git
-$ cd AI-talk-AUGM
+$ git clone git@github.com:zacky1972/AI-talk-how-to-grow.git
+$ cd AI-talk-how-to-grow
 $ npm install
 $ bower install
 ```
@@ -14,7 +14,7 @@ $ bower install
 ## プレゼンテーション表示方法
 
 ```
-$ cd AI-talk-AUGM
+$ cd AI-talk-how-to-grow
 $ grunt serve
 ```
 
@@ -46,19 +46,7 @@ $ subl slides/slide-title.html
 
 slide-title には英語のタイトルを入れる(そのままファイル名になる)。残念ながら日本語は通らない。
 
-スライドごとの CSS は style タグを作って書く。
-
-```html
-<style>
-	h2 {
-		color: red !important;
-	}
-</style>
-
-<h2>slide-title</h2>
-
-<p>Please change me!</p>
-```
+CSS は css/source/theme.scss を編集する
 
 ### Slim のスライドの追加
 
@@ -72,18 +60,9 @@ $ subl slides/slide-title.slim
 
 slide-title には英語のタイトルを入れる(そのままファイル名になる)。残念ながら日本語は通らない。
 
-スライドごとの CSS は style タグを作って書く。
+CSS は css/source/theme.scss を編集する
 
-```slim
-style
-  |  h2 { color: red !important; }
-h2
-  | slide-title
-p
-  | Please change me!
-```
-
-Slim を追加した場合は，スライドを表示したりデプロイしたりする前に gulp を実行して slides/\*.slim を変換しておく
+Slim を追加した場合は，スライドを表示したりデプロイしたりする前に `gulp` を実行して slides/\*.slim を変換しておく
 
 ```
 $ gulp
