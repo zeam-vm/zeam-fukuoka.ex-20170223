@@ -4,10 +4,10 @@
 
 ```
 $ gem install slim html2slim
-$ npm install -g bower yo grunt-cli generator-reveal gulp
+$ yarn global add bower yo grunt-cli generator-reveal gulp
 $ git clone git@github.com:zacky1972/AI-talk-how-to-grow.git
 $ cd AI-talk-how-to-grow
-$ npm install
+$ yarn install
 $ bower install
 ```
 
