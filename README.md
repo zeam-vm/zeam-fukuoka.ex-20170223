@@ -24,7 +24,7 @@ $ grunt serve
 $ grunt deploy
 ```
 
-[このページを開きます](https://zacky1972.github.io/AI-talk-AUGM/)
+[このページを開きます](https://zacky1972.github.io/AI-talk-how-to-grow/)
 
 ## スライドの追加
 
