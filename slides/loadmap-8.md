@@ -7,4 +7,4 @@
 5. JITコンパイラを作る←単一プロセッサのBEAMと同等
 6. マルチCPU対応する←複数プロセッサのBEAMと同等
 7. GPU対応する←BEAMを抜く！
-8. **Intel 以外の CPU や Web Assembly に対応する**
+8. **Intel 以外の CPU や WebAssembly に対応する**
