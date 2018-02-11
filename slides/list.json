@@ -1,8 +1,6 @@
 [
     "index.html",
     "self-introduction.html",
-    "enpit-everi.md",
-    "kk-shift.md",
     "introduction-1.md",
     "introduction-2.md",
     "done-1.md",
@@ -62,5 +60,7 @@
     "fpga-2.md",
     "fpga-3.md",
     "fpga-4.md",
-    "loadmap-10.md"
+    "loadmap-10.md",
+    "enpit-everi.md",
+    "kk-shift.md"
 ]
