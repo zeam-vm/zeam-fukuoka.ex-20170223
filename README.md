@@ -1,12 +1,12 @@
-# README.md: UIprototyping-SPLE-presentation
+# README.md: ZEAM構想
 
 ## インストール方法
 
 ```
 $ gem install slim html2slim
 $ yarn global add bower yo grunt-cli generator-reveal gulp
-$ git clone git@github.com:zacky1972/UIprototyping-SPLE-presentation.git
-$ cd UIprototyping-SPLE-presentation
+$ git clone git@github.com:zeam-vm/zeam-fukuoka.ex-20170223.git
+$ cd zeam-fukuoka.ex-20170223
 $ yarn install
 $ bower install
 ```
@@ -14,25 +14,25 @@ $ bower install
 ## プレゼンテーション表示方法
 
 ```
-$ cd UIprototyping-SPLE-presentation
+$ cd zeam-fukuoka.ex-20170223
 $ grunt serve
 ```
 
 ## GitHub Pages への公開
 
 ```
-$ cd UIprototyping-SPLE-presentation
+$ cd zeam-fukuoka.ex-20170223
 $ grunt deploy
 ```
 
-[このページを開きます](https://zacky1972.github.io/UIprototyping-SPLE-presentation/)
+[このページを開きます](https://zeam-vm.github.io/zeam-fukuoka.ex-20170223/)
 
 ## スライドの追加
 
 ### Markdown のスライドの追加
 
 ```
-$ cd UIprototyping-SPLE-presentation
+$ cd zeam-fukuoka.ex-20170223
 $ yo reveal:slide "slide-title" --markdown
 $ subl slides/slide-title.md
 ```
@@ -42,7 +42,7 @@ next-slide-title には英語のタイトルを入れる(そのままファイ�
 ### HTML のスライドの追加
 
 ```
-$ cd UIprototyping-SPLE-presentation
+$ cd zeam-fukuoka.ex-20170223
 $ yo reveal:slide "slide-title"
 $ subl slides/slide-title.html
 ```
@@ -56,7 +56,7 @@ CSS は css/source/theme.scss を編集する
 HTML のスライドの追加をした後，同名の slim ファイルを追加する
 
 ```
-$ cd UIprototyping-SPLE-presentation
+$ cd zeam-fukuoka.ex-20170223
 $ yo reveal:slide "slide-title"
 $ html2slim slides/slide-title.html slides/slide-title.slim
 $ subl slides/slide-title.slim
@@ -69,6 +69,6 @@ CSS は css/source/theme.scss を編集する
 Slim を追加した場合は，スライドを表示したりデプロイしたりする前に `gulp` を実行して slides/\*.slim を変換しておく
 
 ```
-$ cd UIprototyping-SPLE-presentation
+$ cd zeam-fukuoka.ex-20170223
 $ gulp
 ```
